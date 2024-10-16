@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin-bottom: 15px;
+  }
+  
+  a {
+    color: #0073b7;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Header */
+  
+  header {
+    background-color: #0073b7;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin-top: 0;
+    font-size: 24px;
+  }
+  
+  header p {
+    font-size: 18px;
+  }
+  
+  /* Main */
+  
+  main {
+    padding: 40px 20px;
+  }
+  
+  /* Seção de Benefícios */
+  
+  .beneficios {
+    margin-bottom: 40px;
+  }
+  
+  .beneficios h2 {
+    margin-bottom: 20px;
+  }
+  
+  .beneficios ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .beneficios ul li {
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  /* Seção de Como Funciona */
+  
+  .como-funciona {
+    margin-bottom: 40px;
+  }
+  
+  .como-funciona h2 {
+    margin-bottom: 20px;
+  }
+    

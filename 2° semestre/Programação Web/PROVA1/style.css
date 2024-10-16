@@ -1,0 +1,66 @@
+/*
+  O principal objetivo do css da página é estilizar através das cores selecionadas, formatar as imagens 
+  e suas respectivas posições e formatar os botões, suas cores e suas posições, definindo pequenas alterações
+  como definir o cursor do mouse como pointer ao posicioná-lo em cima de um botão.
+*/
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #131921;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.login-button {
+  float: right;
+  background-color: #3B5998;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+.img-recepcao {
+    width: 50%;
+  }
+
+.content {
+    max-width: 600px;
+    margin: auto;
+    border: 1px solid #fff;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  footer {
+    margin-top: 30px;
+  }
+  
+  footer p {
+    font-size: 0.8em;
+  }

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;estruturasCondicionais.JOptionPane&apos; to &apos;CaixaDialogo&apos;&#x0D;&#x0A;- Original project: &apos;estruturasCondicionais&apos;&#x0D;&#x0A;- Original element: &apos;estruturasCondicionais.JOptionPane&apos;&#x0D;&#x0A;- Renamed element: &apos;estruturasCondicionais.CaixaDialogo&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;JOptionPane&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;estruturasCondicionais{JOptionPane.java[JOptionPane" matchStrategy="1" name="CaixaDialogo" qualified="false" references="true" similarDeclarations="false" stamp="1695037204932" textual="false" version="1.0"/>
+</session>

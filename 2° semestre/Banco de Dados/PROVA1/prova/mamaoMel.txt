@@ -1,0 +1,28 @@
+Pacientes: 
+pk id_paciente int auto increment
+nome varchar(30) not null
+idade smallint
+CPF varchar(11) not null 
+cidade varchar(30) 
+doenca varchar (50) not null
+
+Medicos: 
+pk crm int 
+nome varchar(30) not null
+idade smallint
+cpf varchar(11) not null
+especialidade varchar(50) not null
+cidade varchar(30)
+
+consultas:
+pk id_consulta int auto increment
+d_consulta date not null
+h_consulta time not null
+fk crm int 
+fk id_paciente int
+
+medicamentos:
+pk id_medicamento int auto increment
+quantidade int not null
+fk crm int
+fk id_paciente int

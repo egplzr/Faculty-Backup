@@ -1,0 +1,25 @@
+use world;
+select * from country;
+select name, population - population/2 as half_population from country;
+select count(*) as melhores_paises from country where lifeExpectancy > 70;
+select count(*) as letra_A from country where Name = 'Brazil';
+select sum(population) as total_population from country;
+select avg(population) as avg_popultion_melhores_paises from country where lifeExpectancy > 70;
+select max(lifeExpectancy) as melhor_expectativa from country;
+select min(lifeExpectancy) as pior_expectativa from country;
+select count(distinct lifeExpectancy) as naoSei from country;
+select avg(distinct lifeExpectancy) as naoSei2 from country;
+select * from country;
+select name, continent, region from country where name like 'B%';
+select name, continent, region from country where name like 'U%';
+select code, name, continent, region from country where code like 'A%' or code like 'C%';
+select count(*) as contagem_paises from country where name like 'b%';
+select name, continent, region from country where indepYear is null;
+use sakila;
+show tables;
+select * from customer;
+select * from film_list;
+select * from film_list as duracao where length between '90' and '120';
+select * from actor;
+select * from customer_list;
+select * from customer_list where city in ('hiroshima', 'manheim', 'maringá', 'poços de caldas', 'jinzhou')

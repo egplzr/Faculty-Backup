@@ -1,0 +1,26 @@
+Plataforma de consulta médica online {
+	Objetivo {
+		/*
+			Desenvolver plataforma que permita: 
+			- acesso aos serviços de saúde de forma remota
+			- consultas médicas virtuais (segurança e eficácia)
+			- continuidade e melhoria no cuidade e acesso de serviço
+			  à saúde.
+		*/
+
+		- Enzo: procurar exemplos reais de plataformas e tentar identificar principais falhas e problemas.
+		- Enzo: https://www.techtudo.com.br/listas/2019/07/agendar-consulta-online-conheca-cinco-sites-para-marcar-medico.ghtml
+
+	}
+	
+	Requisitos {
+		- AGENDAMENTO DE CONSULTAS = online, selecionando especialidade médica, escolhendo médicos, marcando horários.
+		  **proporcionar CONVENIÊNCIA e ACESSIBILIDADE aos serviços de saúde**
+		- VIDEOCONFERÊNCIA SEGURA =  médico x paciente, privacidade e proteção de informações médicas.
+		- HISTÓRICO DE CONSULTA E PRECRIÇÕES = registro completo (banco de dados) de consultas realizadas, informações sobre diagnósticos, 		  			tratamentos prescritos, exames solicitados, orientações médicas.
+		- PRESCRIÇÃO ELETRÔNICA = sistema de prescrição eletrônica de medicamentos, permitindo emissão de receitas digitais (assinatura eletrônica e envio 			  direto p/ farmácias)
+		- INTEGRAÇÃO COM PRONTUÁRIO ELETRÔNICO = integrar a plataforma com um sistema de prontuário eletrônico de saúde(???), permitindo compartilhamento entre 		  diferentes profissionais da saúde (caso paciente troque de médico).
+		** Enzo: vamos ter que fazer um puta banco de dados e arrumar um jeito de interligar as tabelas com poucas primary keys**
+	}
+
+}

@@ -1,0 +1,50 @@
+- documentação de início do projeto / especificação inicial.
+
+* Título do trabalho: _Plataforma de Consulta Médica Online
+
+ESPECIFICAÇÃO DO PROBLEMA {
+	cenário de negócio hipotético {
+		
+		- Ramo de atividade da empresa (o que ela faz para gerar valor aos seus clientes) = prestação de serviços na área de Tecnologia da Saúde
+		- Contexto de mercado (aspectos externos) = 
+		- Identificação (caracterização) do cliente alvo = 
+		- Necessidades de negócio (dor do mercado) = 
+		- Necessidade específica (dor do cliente) = 
+
+	}
+}
+
+ENTENDIMENTO DO PROBLEMA {
+	- Qual solução técnica será aplicada para resolver o problema?
+	  Decreva que conjunto de soluções (sistema) será aplicada para
+	  resolver este problema. Seção apenas descritiva.
+}
+	
+ESTRATÉGIA DE ATUAÇÃO {
+	- Como trabalharemos em dupla = 
+	- Quais ferramentas utilizaremos (gestão de tempo, comunicação, distribuição de atividades) = 
+}
+
+MACRO CRONOGRAMA {
+	- lista de atividades = 
+	- macro cronograma de atividades = 
+	/*
+		Identificar e discutir todas as ideias e atividades que prevemos para o projeto.
+	*/
+}
+
+
+Enzo{
+	- problema geral pode ser falta de segurança e fluidez de outras plataformas.
+	- dor do cliente: acessibilidade e facilidade na utilização dos serviços.
+	- como trabalharemos em dupla (tópicos): Divisão de tarefas por diferença de atividades, facilidade e 
+          familiaridade de cada indivíduo da dupla com cada tarefa requisitada; mantendo sempre a comunicação e 
+	  coordenação entre as partes e delimitando antes do início de qualquer atividade o escopo de atuação de 
+	  cada um. Mesmo tendo tarefas divididas a comunicação e disponibilidade de ajuda um para com o outro 
+	  será essencial no cumprimento das tarefas.
+	- comunicação com o cliente (tópicos): Visando manter a transparência do projeto e garantir a realização das requisições
+	  feitas dentro do escopo do programa, a comunicação e troca de opiniões com os clientes será constante, seguindo
+	  a frequência de reuniões determinadas através do prazo que teremos para a realização do projeto, sempre buscando
+	  entregar o resultado mais satisfatório possivel dentro das delimitações feitas pelo cliente.
+
+}

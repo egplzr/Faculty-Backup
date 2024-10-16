@@ -1,0 +1,238 @@
+
+<link rel="stylesheet" type="text/css" href="styles.css">
+<!DOCTYPE html>
+<html>
+<head>
+  <!--menu fixo de login da página: manter o menu fixo no cabeçalho
+  da página, incentivando o usuário a fazer login e mantendo o menu de fácil
+  acesso sempre na tela.-->
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #131921;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.login-button {
+  float: right;
+  background-color: #3B5998;
+  border: none;
+  color: #131921;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+</style>
+</head>
+<body>
+
+<div class="navbar">
+  <a class="logo">MedOn</a>
+  <a class="login-button">Login / cadastro</a>
+</div>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cuidados de Saúde</title>
+<style>
+  body { 
+    font-family: 'Open Sans', sans-serif; 
+  }
+  .header { 
+    text-align: center; 
+    padding: 20px; 
+  }
+  .main { 
+    margin: 30px; 
+  }
+  .button { 
+    background-color: #3B5998; 
+    color: white; 
+    padding: 15px 20px; 
+    text-align: center; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 4px 2px; 
+    cursor: pointer; 
+  }
+  .footer { 
+    position: fixed; 
+    bottom: 0; 
+    width: 100%; 
+    background-color: #131921; 
+    text-align: center; 
+    padding: 10px; 
+  }
+</style>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+</style>
+</head>
+<body>
+<!--Hero da página: contém as principais funcionalidades do site através dos botões, contém uma imagem
+com o intuito de captar a atenção e passar sensação de cuidado ao usuário. Os botões principais são 
+centralizados para se destacar.-->>
+<div class="header">
+  <h1>Cuidando da sua saúde a qualquer momento</h1>
+  <p>Agendamentos pelo telefone: 2783–9253</p>
+  <button class="button">TRABALHE CONOSCO!</button>
+</div>
+
+<div class="main">
+  <img src="recpcao1.jpg" alt="Recepção de saúde moderna">
+  <div>
+    <button class="button">Agendar Consulta</button>
+    <button class="button">Agendar Exames</button>
+    <button class="button">Área do paciente</button>
+  </div>
+</div>
+
+</div>
+
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Parceiros</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    text-align: center;
+    padding: 50px;
+  }
+  .title {
+    color: white;
+    margin-bottom: 30px;
+  }
+  .partners {
+    display: flex;
+    justify-content: space-around;
+  }
+  .partner {
+    width: 100px;
+    height: 100px;
+    background-color: #007bff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .partner img {
+    width: 50%;
+    color: white;
+  }
+</style>
+</head>
+<body>
+
+  <!--Carrossel de imagens dos hospitais e clínicas associados ao site: imagens de parceiros que tem seus
+  serviços hospedados em nosso site, principal função é passar confiança ao usuário.-->
+<div class="container">
+  <h1 class="title">Conheça nossos parceiros: HOSPITAIS, CLÍNICAS E MÉDICOS</h1>
+  <div class="partners">
+    <div class="partner">
+      <!-- Insira aqui o ícone do hospital -->
+      <img src="hosp.JPG" alt="Hospital">
+    </div>
+    <div class="partner">
+      <!-- Insira aqui o ícone da linha do coração -->
+      <img src="corac.JPG" alt="Heartbeat">
+    </div>
+    <div class="partner">
+      <!-- Insira aqui o ícone do estetoscópio -->
+      <img src="tetos.JPG" alt="Stethoscope">
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <!--Rodapé da página: contém o link para as redes sociais da página, a logo do site e a missão. O intuito
+  do rodapé é incentivar o usuário a seguir as redes sociais do site e aumentar a visibilidade do serviço.-->>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MedOn</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #131921;
+    color: white;
+    text-align: center;
+    padding: 50px;
+  }
+  .social-icons {
+    margin-top: 20px;
+  }
+  .social-icons img {
+    width: 24px;
+    height: 24px;
+    margin: 0 10px;
+  }
+
+</style>
+</head>
+<body>
+  <div class="content">
+    <img src="comp.jpg" alt="Ícone de computador">
+    <h1>MedOn</h1>
+    <p>Acessibilidade e praticidade para a sua saúde.</p>
+    <div class="social-icons">
+      <!-- Substitua 'icon-path' pelo caminho correto dos ícones -->
+      <a href="https://facebook.com"><img src="facebook-logo-png-4.png" alt="Facebook"></a>
+      <a href="https://twitter.com"><img src="twitter-x-logo-42554.png" alt="Twitter"></a>
+      <a href="https://instagram.com"><img src="Instagram_icon.png" alt="Instagram"></a>
+    </div>
+  </div>
+  <footer>
+    <p>githubEnzo</p>
+ <p>githubInacio</p>
+  </footer>
+</body>
+</html>

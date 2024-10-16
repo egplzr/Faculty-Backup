@@ -1,0 +1,10 @@
+1-Por se tratar de uma plataforma de atendimento médico, lidar com o público -geral significa lidar tanto com adultos quanto com idosos. Com isso em mente a identidade visual do site foi pensada de forma que seja o mais intuitiva possivel, utilizando elementos simples com cores que se destacam, tornando o site mais dinâmico e acessível.
+Como nossa plataforma se tratar de um serviço relacionado à área da saúde, as cores e imagens e outros elementos foram pensados seguindo a identidade visual que essa área adota.
+
+5- Páginas simples e intuitivas
+    Uso de elementos simples e com pouco movimento como botões estáticos
+    Botões interativos que se destacam ao passar o mouse por cima
+    Uso de ícones intuitivos e chamativos
+    Carrossel de imagens com os hospitais e clínicas que integram o site
+    menu de canto com as principais ações do site em forma de lista para acesso rápido
+     

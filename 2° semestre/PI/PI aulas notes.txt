@@ -1,0 +1,46 @@
+Criação de formulários;
+set layout > null layout
+
+configuração padrão da janela (code):
+form size policy > generate resize code
+
+fazer com que botões mostrem outras janelas: 
+new Classe().setVisible(true);
+
+-------------------------------------------------------------------------------------------------------------------------
+
+conexão banco de dados PI:
+	criar banco de dados;
+	baixar jdbc;
+	adicionar library ao projeto;
+
+imports:
+	import java.sql.Connection; //conectar com o bd
+	import java.sql.DriverManager; //informar o caminho, nome do bd, usuario e senha
+	import java.sql.PreparedStatement; //executar os comandos SQL
+	import java.sql.SQLException;
+
+Conexão exemplo:
+// 1- pegar os dados digitados nos campos e guardar em variáveis
+        String u, s, c;
+        u = textUsuario.getText();
+        s = textSenha.getText();
+        c = comboBoxCargo.getSelectedItem().toString();
+
+// 2- conectar ao banco de dados bdSistemaTeste1 | linha única: Class.forName(); | é aqui que entra o try-catch
+            Class.forName("com.mysql.cj.jdbc.Driver");
+            Connection conectar = DriverManager.getConnection("jdbc:mysql://localhost:3306/bdSistemaTeste1", "root", "p@$$w0rd");
+
+
+//3- enviar dados para o bd selecionado
+            PreparedStatement st = conectar.prepareStatement("INSERT INTO usuario VALUES (?,?,?)");
+            st.setString(1,u);
+            st.setString(2,s);
+            st.setString(3,c);
+            st.executeUpdate(); //executa o comando INSERT
+            JOptionPane.showMessageDialog(null,"Usuário cadastrado.");
+
+//4- limpar os campos após o cadastro
+            textUsuario.setText("");
+            textSenha.setText("");
+            textUsuario.requestFocus();
